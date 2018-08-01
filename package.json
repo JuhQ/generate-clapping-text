@@ -1,7 +1,7 @@
 {
   "name": "generate-clapping-text",
-  "version": "0.0.1",
-  "main": "generate-clapping-text.js",
+  "version": "0.0.2",
+  "main": "index.js",
   "scripts": {
     "test": "jest --watch --silent",
     "test-ci": "jest --silent",

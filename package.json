@@ -1,0 +1,46 @@
+{
+  "name": "generate-clapping-text",
+  "version": "0.0.1",
+  "main": "generate-clapping-text.js",
+  "scripts": {
+    "test": "jest --watch --silent",
+    "test-ci": "jest --silent",
+    "test-coverage": "jest --coverage",
+    "test-coverage-ci": "jest --coverage --silent"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test-coverage-ci"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuhQ/generate-clapping-text.git"
+  },
+  "author": "Juha Tauriainen <juha@bin.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuhQ/generate-clapping-text/issues"
+  },
+  "homepage": "https://github.com/JuhQ/generate-clapping-text#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "husky": "^1.0.0-rc.13",
+    "jest": "^23.4.1",
+    "prettier": "^1.13.7",
+    "regenerator-runtime": "^0.12.0"
+  },
+  "dependencies": {},
+  "description": ""
+}

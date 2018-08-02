@@ -13,6 +13,10 @@
       "pre-push": "npm run test-coverage-ci"
     }
   },
+  "jest": {
+    "testURL": "http://localhost/",
+    "testEnvironment": "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JuhQ/generate-clapping-text.git"
